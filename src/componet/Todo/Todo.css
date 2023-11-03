@@ -1,0 +1,92 @@
+/* Todo.css */
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .todo_wrapper {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo_item {
+    background-color: #f5f5f5;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #e64c2d;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 50%;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 28px;
+  }
+  
+  /* Styling for the search input */
+  form > input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 51%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .heading{
+     text-align: center;
+  }
+
+  .additem_btn{
+      width: 150px;
+      cursor: pointer;
+      border: 2px solid;
+      border-radius: 10px;
+  }
+
+  .input_add{
+     height: 25px;
+     width: 600px;
+  }
